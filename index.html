@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Loops</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Practice: forEach loops</h1>
+    <button type="button" id="wordPlayButton">Word Play</button>
+    <button type="button" id="buildADeckButton">Build a Deck</button>
+    <button type="button" id="groceriesButton">Groceries</button>
+    <button type="button" id="wordOrderButton">Word Order</button>
+  </div>
+  <div id="wordPlayDiv" class="hidden">
+    <form id="wordPlay">
+      <div>
+        <textarea name="sentence" rows="15" cols="150"></textarea>
+      </div>
+      <div class="button-container">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div id="groceriesDiv" class="hidden">
+    <h2>Select items to buy:</h2>
+    <form id="groceries">
+      <input type="checkbox" id="bread" name="shoppingGoods" value="bread">
+      <label for="bread"> Bread</label><br>
+      <input type="checkbox" id="milk" name="shoppingGoods" value="milk">
+      <label for="milk"> Milk</label><br>
+      <input type="checkbox" id="chips" name="shoppingGoods" value="chips">
+      <label for="chips"> Chips</label><br>
+      <input type="checkbox" id="butter" name="shoppingGoods" value="butter">
+      <label for="butter"> Butter</label><br>
+      <input type="checkbox" id="potato" name="shoppingGoods" value="potato">
+      <label for="potato"> Potato</label><br>
+      <input type="checkbox" id="grapes" name="shoppingGoods" value="grapes">
+      <label for="grapes"> Grapes</label><br>
+      <input type="checkbox" id="lemonade" name="shoppingGoods" value="lemonade">
+      <label for="lemonade"> Lemonade</label><br>
+      <input type="checkbox" id="chocolate" name="shoppingGoods" value="chocolate">
+      <label for="chocolate"> Chocolate</label><br>
+      <input type="checkbox" id="wine" name="shoppingGoods" value="wine">
+      <label for="wine"> Wine</label><br>
+      <input type="checkbox" id="sugar" name="shoppingGoods" value="sugar">
+      <label for="sugar"> Sugar</label><br>
+      <label for="other"> Other</label>
+      <input type="text" id="other"><br>
+      <button type="submit">Submit</button>
+  </div>
+  </form>
+  </div>
+  <div id="wordOrder" class="hidden">
+    <form id="wordOrderForm">
+      <div>
+        <textarea name="sentence" rows="15" cols="100"></textarea>
+      </div>
+      <div class="button-container">
+        <button id="wordOrderSubmitButton" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div id="result" class="hidden">
+
+  </div>
+</body>
+
+</html>

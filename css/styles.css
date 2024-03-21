@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+}
+
+button {
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+textarea {
+  resize: none;
+}
+
+#wordPlay>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#result {
+  text-align: center;
+}
+
+#result ul {
+  padding: 0;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+}
+
+#groceriesDiv {
+  margin: 10px 100px;
+}
